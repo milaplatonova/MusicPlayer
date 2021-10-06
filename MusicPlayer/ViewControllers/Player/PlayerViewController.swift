@@ -32,7 +32,7 @@ class PlayerViewController: UIViewController {
             button.backgroundColor = UIColor.clear
             button.layer.cornerRadius = 5
             button.layer.borderWidth = 3
-            button.layer.borderColor = #colorLiteral(red: 0.3642524701, green: 0.2781471972, blue: 0.5461955293, alpha: 1)
+            button.layer.borderColor = #colorLiteral(red: 0.1773410738, green: 0.1008675769, blue: 0.3471609652, alpha: 1)
         }
         
         let swipeRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(swipe(_:)))
