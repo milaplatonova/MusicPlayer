@@ -52,7 +52,7 @@ A class AVPlayer of AVFoundation framework is used to play media assets. It allo
 Timer is used to observe a track's playback time as it progresses to update the playback position and synchronize the state of user interface objects.  
   
 **DispatchQueue**  
-The app uses an asynchronous dispatch queue to execute tasks related to the player interface adjustment concurrently.  
+The app uses an asynchronous dispatch queue to execute tasks related to the player interface adjustment.  
   
 **Notification Center**  
 When AVPlayer finishes to play a track, NotificationCenter enables the broadcast of this information in order to start the playback of the next track and adjust the necessary parameters.  
@@ -84,5 +84,5 @@ To download music MusicPlayer app uses the [Drivemusic](https://drivemusic.me) w
 ## Contacts
 Lyudmila Platonova  
 :email: milaplatonova@icloud.com  
-:bust_in_silhouette: [LinkedIn](linkedin.com/in/lyudmila-platonova-916097222)
+:bust_in_silhouette: [LinkedIn](linkedin.com/in/lyudmilaplatonova/)
 
