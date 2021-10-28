@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,14 +16,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        //чтобы сделать прозрачным NavigationBar
+        // to make the NavigationBar transparent
         let navBar = UINavigationBar.appearance()
         navBar.shadowImage = UIImage()
         navBar.barTintColor = .clear
         navBar.backgroundColor = .clear
         navBar.setBackgroundImage(UIImage(), for: .default)
         
-        // Override point for customization after application launch.
+        // to play in the background mode
+        let session = AVAudioSession.sharedInstance()
+        do {
+            try session.setCategory(.playback, mode: .default, options: [.allowAirPlay, .defaultToSpeaker])
+            print("Playback OK")
+            try session.setActive(true)
+            print("Session is Active")
+        } catch {
+            print(error.localizedDescription)
+        }
+        
         return true
     }
 

@@ -200,6 +200,9 @@
 		FDFA516D230032E500A8462E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					b,
+				);
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "Lyudmila Platonova";

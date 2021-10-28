@@ -21,7 +21,7 @@ class MainViewController: UIViewController {
         
         musicButton.layer.cornerRadius = 8
         searchButton.layer.cornerRadius = 8
-        
+    
     }
     
     @IBAction func buttonAction(_ sender: UIButton) {
