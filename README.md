@@ -51,7 +51,7 @@ A class AVPlayer of AVFoundation framework is used to play media assets. It allo
 **Timer**  
 Timer is used to observe a track's playback time as it progresses to update the playback position and synchronize the state of user interface objects.  
   
-**DispatchQueue**  
+**GCD**  
 The app uses an asynchronous dispatch queue to execute tasks related to the player interface adjustment.  
   
 **Notification Center**  
@@ -74,7 +74,8 @@ UISwipeGestureRecognizer is used to dissmiss the player and return back to the p
 * music progress with time indicators
 * music rewind
 * volume control, includind mute option
-* swipe gestures to close the player  
+* swipe gestures to close the player
+* background mode  
   
 ![MusicPlayer](Demo/MusicPlayer.gif)
   
