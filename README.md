@@ -85,5 +85,4 @@ To download music MusicPlayer app uses the [Drivemusic](https://drivemusic.me) w
 ## Contacts
 Lyudmila Platonova  
 :email: milaplatonova@icloud.com  
-:bust_in_silhouette: [LinkedIn](linkedin.com/in/lyudmilaplatonova/)
-
+:bust_in_silhouette: [LinkedIn](https://www.linkedin.com/in/lyudmilaplatonova/)
